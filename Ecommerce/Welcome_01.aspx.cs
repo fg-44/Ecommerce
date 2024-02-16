@@ -44,8 +44,7 @@ namespace Ecommerce
 
                 if (!IsPostBack)
                 {
-                    //string url = FormatUrl("Dettagli.aspx?productId=" + Request.QueryString["productId"]);
-                    //Response.Redirect(url);
+                   
                 }
 
                 LoadProducts();

@@ -18,7 +18,11 @@ namespace Ecommerce
 
         {
 
-
+            if (!IsPostBack)
+            {
+                // Inizializza la variabile di sessione con l'ID del prodotto
+                Session["ProductId"] = Request.QueryString["productId"];
+            }
 
         }
        }

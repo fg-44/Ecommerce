@@ -31,7 +31,7 @@
             <span><%=HttpUtility.HtmlEncode(vestito.Prezzo.ToString("C"))%></span>
             <p class="card-text"><%=HttpUtility.HtmlEncode(vestito.Descrizione)%></p>
 
-            <a href="<%=Request.QueryString["productId"]%>">Dettagli</a> <!-- LINK DETTAGLI PAGE -->
+              <a href="dettagli.aspx?productId=<%= Request.QueryString["id"]%>">Dettagli</a> <!-- LINK DETTAGLI PAGE -->
 
             </div>
 
